@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SocialFollow from "./SocialFollow"
+
 
 class Footer extends Component {
     state = {  }
@@ -42,9 +44,7 @@ class Footer extends Component {
                         <div class="col-md-3">
                             <ul class="list-unstyled">
                                 <li class="lead"><b><strong>Follow Us</strong></b></li>
-                                <li>
-                                    Social Media
-                                </li>
+                                <li><SocialFollow /></li>
                             </ul>
                         </div>
                     </div>
