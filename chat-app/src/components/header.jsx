@@ -19,9 +19,9 @@ class Header extends Component {
             <div>
                 <MDBNavbar expand='lg' light bgColor='light'>
                     <MDBContainer fluid>
-                        <MDBNavbarBrand href='#' margin-right="-14rem">
-                            <img src={chatapplogo} alt="ChatAppLogo" width="50%" height="50%"/>
-                        </MDBNavbarBrand>
+                        {/* <MDBNavbarBrand href='#'> */}
+                            <img src={chatapplogo} alt="ChatAppLogo" width="25%" height="25%"/>
+                        {/* </MDBNavbarBrand> */}
                         <MDBCollapse navbar show={true}>
                             <MDBNavbarNav>
                                 <MDBNavbarItem>
@@ -44,7 +44,7 @@ class Header extends Component {
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        
                                     </span>
 
                                 </MDBNavbarItem>
