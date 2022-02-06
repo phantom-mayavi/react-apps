@@ -17,7 +17,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <MDBNavbar expand='lg' light bgColor='light'>
+                <MDBNavbar expand='lg' light bgColor='white'>
                     <MDBContainer fluid>
                         {/* <MDBNavbarBrand href='#'> */}
                             <img src={chatapplogo} alt="ChatAppLogo" width="25%" height="25%"/>
